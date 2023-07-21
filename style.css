@@ -1,0 +1,25 @@
+body {
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 200px;
+    padding: 30px;
+    border: 2px solid black;
+}
+
+.row {
+    justify-content: center;
+    display: flex;
+}
+
+.btn {
+    height: 60px;
+    width: 80px;
+    font-size: 40px;
+    /*			margin-bottom: 20px;*/
+}

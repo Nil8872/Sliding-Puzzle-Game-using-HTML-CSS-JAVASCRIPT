@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Puzzle Game Using 8 Number</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class=" container ">
+        <div class="row">
+            <input type="button" class="btn" name="" id="btn0" onclick="even(0)">
+            <input type="button" class="btn" name="" id="btn1" onclick="even(1)">
+            <input type="button" class="btn" name="" id="btn2" onclick="even(2)">
+        </div>
+        <div class="row">
+            <input type="button" class="btn" name="" id="btn3" onclick="even(3)">
+            <input type="button" class="btn" name="" id="btn4" onclick="even(4)">
+            <input type="button" class="btn" name="" id="btn5" onclick="even(5)">
+        </div>
+        <div class="row">
+            <input type="button" class="btn" name="" id="btn6" onclick="even(6)">
+            <input type="button" class="btn" name="" id="btn7" onclick="even(7)">
+            <input type="button" class="btn" name="" id="btn8" onclick="even(8)">
+        </div>
+        <div style="margin-top: 20px; display: flex; justify-content: center;">
+            <button class="reset" onclick="onReset()">
+                Reset Game
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
